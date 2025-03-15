@@ -1,0 +1,107 @@
+
+MasqueDB = {
+["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Tiorfan - Spineshatter"] = "Default",
+["Namzan - Soulseeker"] = "Default",
+["Namzan - Thunderstrike"] = "Default",
+["Caliawen - Thunderstrike"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["Groups"] = {
+["Bagnon"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bagnon_inventory - items"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bartender4_StanceBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bagnon_guildbank - bags"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bartender4_1"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_3"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_2"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bagnon_guildbank - items"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bagnon_bank - items"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bartender4_4"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bagnon_voidstorage - items"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bagnon_bank - bags"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bagnon_inventory - bags"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bartender4"] = {
+["Inherit"] = false,
+},
+["MA Blizzard Bags"] = {
+["Inherit"] = false,
+},
+["Baganator_Bag"] = {
+["Inherit"] = false,
+},
+["Bartender4_PetBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_Flyout"] = {
+["Inherit"] = false,
+},
+["Baganator"] = {
+["Inherit"] = false,
+},
+["Bagnon_voidstorage - bags"] = {
+["SkinID"] = "Classic Enhanced",
+["Inherit"] = false,
+},
+["Bartender4_BagBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_5"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bartender4_6"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+},
+["API_VERSION"] = 110000,
+},
+},
+}

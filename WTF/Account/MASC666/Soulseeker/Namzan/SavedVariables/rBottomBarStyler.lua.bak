@@ -1,0 +1,11 @@
+
+rBottomBarStyler = {
+["artvalue"] = "d3",
+["scalevalue"] = 0.82,
+["movable"] = 1,
+["healthorb"] = 0,
+["locked"] = 1,
+["manaorb"] = 3,
+["barvalue"] = "bar1",
+["automana"] = 1,
+}

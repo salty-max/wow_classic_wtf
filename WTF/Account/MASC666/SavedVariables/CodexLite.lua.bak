@@ -1,0 +1,75 @@
+
+CodexLiteSV = {
+["quest_temporarily_blocked"] = {
+["Player-6113-03BE982C"] = {
+},
+["Player-6111-03B54153"] = {
+},
+["Player-6113-03BCD03A"] = {
+},
+["Player-6111-03C2BD28"] = {
+},
+},
+["setting"] = {
+["minimap_player_arrow_on_top"] = true,
+["show_minimappin"] = true,
+["worldmap_alpha"] = 1,
+["minimap_node_inset"] = true,
+["auto_accept"] = false,
+["min_rate"] = 1,
+["worldmap_pin_scale_max"] = 1.25,
+["show_buttons_in_log"] = true,
+["worldmap_large_size"] = 24,
+["show_db_icon"] = true,
+["minimap_normal_size"] = 15,
+["worldmap_normal_size"] = 15,
+["show_worldmappin"] = true,
+["quest_lvl_lowest_ofs"] = -6,
+["quest_lvl_highest_ofs"] = 1,
+["limit_item_starter_drop"] = true,
+["show_quest_starter"] = true,
+["worldmap_varied_size"] = 20,
+["quest_auto_inverse_modifier"] = "SHIFT",
+["objective_tooltip_info"] = true,
+["show_quest_ender"] = true,
+["show_in_continent"] = false,
+["limit_item_starter_drop_num_coords"] = false,
+["node_menu_modifier"] = "SHIFT",
+["show_id_in_tooltip"] = true,
+["minimap_large_size"] = 24,
+["minimap_varied_size"] = 20,
+["auto_complete"] = false,
+["minimap_alpha"] = 1,
+},
+["_GlobalRef"] = {
+["Init"] = {
+["hooksecurefunc"] = 60,
+},
+},
+["minimap"] = {
+["minimapPos"] = 0,
+},
+["quest_permanently_blocked"] = {
+["Player-6113-03BE982C"] = {
+},
+["Player-6111-03B54153"] = {
+},
+["Player-6113-03BCD03A"] = {
+},
+["Player-6111-03C2BD28"] = {
+},
+},
+["__version"] = 20221031,
+["quest_permanently_bl_list"] = {
+["Player-6113-03BE982C"] = {
+},
+["Player-6111-03B54153"] = {
+},
+["Player-6113-03BCD03A"] = {
+},
+["Player-6111-03C2BD28"] = {
+},
+},
+["_GlobalAssign"] = {
+},
+}

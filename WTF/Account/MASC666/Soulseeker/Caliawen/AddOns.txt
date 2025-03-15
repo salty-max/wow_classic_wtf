@@ -1,0 +1,6 @@
+Blizzard_CompactRaidFrames: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+LortiUI: disabled
+UberUI: disabled

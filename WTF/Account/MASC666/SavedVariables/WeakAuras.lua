@@ -1,0 +1,1480 @@
+
+WeakAurasSaved = {
+["dynamicIconCache"] = {
+},
+["editor_tab_spaces"] = 4,
+["displays"] = {
+["1"] = {
+["user_y"] = 0,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["icon"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["load"] = {
+["use_class"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "ROGUE",
+["multi"] = {
+["DRUID"] = true,
+["ROGUE"] = true,
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = true,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "ClassOverlay-ComboPoint-Off",
+["cooldownTextDisabled"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["auraRotation"] = 0,
+["backgroundOffset"] = 2,
+["wagoID"] = "rAWUGJzlL",
+["parent"] = "Combo Points",
+["adjustedMin"] = "100",
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_power"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["powertype"] = 4,
+["use_spec"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["use_hand"] = true,
+["event"] = "Power",
+["subeventPrefix"] = "SPELL",
+["use_genericShowOn"] = true,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["powertype"] = 3,
+["use_hand"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["use_spec"] = true,
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["event"] = "Power",
+["use_requirePowerType"] = true,
+["use_unit"] = true,
+["use_power"] = false,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 83,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["version"] = 7,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 20,
+["rotate"] = false,
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["preferToUpdate"] = false,
+["mirror"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["information"] = {
+},
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = "ClassOverlay-ComboPoint",
+["property"] = "texture",
+},
+},
+},
+},
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["crop_y"] = 0.41,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["semver"] = "1.0.6",
+["backgroundColor"] = {
+0.5,
+0.5,
+0.5,
+0.5,
+},
+["id"] = "1",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["frameStrata"] = 1,
+["width"] = 20,
+["tocversion"] = 11506,
+["foregroundTexture"] = "ClassOverlay-ComboPoint-Off",
+["inverse"] = false,
+["zoom"] = 0,
+["orientation"] = "VERTICAL",
+["crop_x"] = 0.41,
+["cooldown"] = true,
+["uid"] = "(kHTe(YFCPb",
+},
+["3"] = {
+["user_y"] = 0,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["icon"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["load"] = {
+["use_class"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "ROGUE",
+["multi"] = {
+["DRUID"] = true,
+["ROGUE"] = true,
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = true,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "ClassOverlay-ComboPoint-Off",
+["cooldownTextDisabled"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["auraRotation"] = 0,
+["backgroundOffset"] = 2,
+["wagoID"] = "rAWUGJzlL",
+["parent"] = "Combo Points",
+["adjustedMin"] = "100",
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_power"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["powertype"] = 4,
+["use_spec"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"3",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["use_hand"] = true,
+["event"] = "Power",
+["subeventPrefix"] = "SPELL",
+["use_genericShowOn"] = true,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["powertype"] = 3,
+["use_hand"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["use_spec"] = true,
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["event"] = "Power",
+["use_requirePowerType"] = true,
+["use_unit"] = true,
+["use_power"] = false,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 83,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["version"] = 7,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 20,
+["rotate"] = false,
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["preferToUpdate"] = false,
+["mirror"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["information"] = {
+},
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = "ClassOverlay-ComboPoint",
+["property"] = "texture",
+},
+},
+},
+},
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["crop_y"] = 0.41,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["semver"] = "1.0.6",
+["backgroundColor"] = {
+0.5,
+0.5,
+0.5,
+0.5,
+},
+["id"] = "3",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["frameStrata"] = 1,
+["width"] = 20,
+["tocversion"] = 11506,
+["foregroundTexture"] = "ClassOverlay-ComboPoint-Off",
+["inverse"] = false,
+["zoom"] = 0,
+["orientation"] = "VERTICAL",
+["crop_x"] = 0.41,
+["cooldown"] = true,
+["uid"] = "QH1sBvnU4ZU",
+},
+["2"] = {
+["user_y"] = 0,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["icon"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["load"] = {
+["use_class"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "ROGUE",
+["multi"] = {
+["DRUID"] = true,
+["ROGUE"] = true,
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = true,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "ClassOverlay-ComboPoint-Off",
+["cooldownTextDisabled"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["auraRotation"] = 0,
+["backgroundOffset"] = 2,
+["wagoID"] = "rAWUGJzlL",
+["parent"] = "Combo Points",
+["adjustedMin"] = "100",
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_power"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["powertype"] = 4,
+["use_spec"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"2",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["use_hand"] = true,
+["event"] = "Power",
+["subeventPrefix"] = "SPELL",
+["use_genericShowOn"] = true,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["powertype"] = 3,
+["use_hand"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["use_spec"] = true,
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["event"] = "Power",
+["use_requirePowerType"] = true,
+["use_unit"] = true,
+["use_power"] = false,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 83,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["version"] = 7,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 20,
+["rotate"] = false,
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["preferToUpdate"] = false,
+["mirror"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["information"] = {
+},
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = "ClassOverlay-ComboPoint",
+["property"] = "texture",
+},
+},
+},
+},
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["crop_y"] = 0.41,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["semver"] = "1.0.6",
+["backgroundColor"] = {
+0.5,
+0.5,
+0.5,
+0.5,
+},
+["id"] = "2",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["frameStrata"] = 1,
+["width"] = 20,
+["tocversion"] = 11506,
+["foregroundTexture"] = "ClassOverlay-ComboPoint-Off",
+["inverse"] = false,
+["zoom"] = 0,
+["orientation"] = "VERTICAL",
+["crop_x"] = 0.41,
+["cooldown"] = true,
+["uid"] = "qFUNqtEtiw0",
+},
+["5"] = {
+["user_y"] = 0,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["icon"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["load"] = {
+["use_class"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "ROGUE",
+["multi"] = {
+["DRUID"] = true,
+["ROGUE"] = true,
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = true,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "ClassOverlay-ComboPoint-Off",
+["cooldownTextDisabled"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["auraRotation"] = 0,
+["backgroundOffset"] = 2,
+["wagoID"] = "rAWUGJzlL",
+["parent"] = "Combo Points",
+["adjustedMin"] = "100",
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_power"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["powertype"] = 4,
+["use_spec"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"5",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["use_hand"] = true,
+["event"] = "Power",
+["subeventPrefix"] = "SPELL",
+["use_genericShowOn"] = true,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["powertype"] = 3,
+["use_hand"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["use_spec"] = true,
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["event"] = "Power",
+["use_requirePowerType"] = true,
+["use_unit"] = true,
+["use_power"] = false,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 83,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["version"] = 7,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 20,
+["rotate"] = false,
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["preferToUpdate"] = false,
+["mirror"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["information"] = {
+},
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = "ClassOverlay-ComboPoint",
+["property"] = "texture",
+},
+},
+},
+},
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["crop_y"] = 0.41,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["semver"] = "1.0.6",
+["backgroundColor"] = {
+0.5,
+0.5,
+0.5,
+0.5,
+},
+["id"] = "5",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["frameStrata"] = 1,
+["width"] = 20,
+["tocversion"] = 11506,
+["foregroundTexture"] = "ClassOverlay-ComboPoint-Off",
+["inverse"] = false,
+["zoom"] = 0,
+["orientation"] = "VERTICAL",
+["crop_x"] = 0.41,
+["cooldown"] = true,
+["uid"] = "91bI8Hi3Xgs",
+},
+["4"] = {
+["user_y"] = 0,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["icon"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["load"] = {
+["use_class"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "ROGUE",
+["multi"] = {
+["DRUID"] = true,
+["ROGUE"] = true,
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = true,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "ClassOverlay-ComboPoint-Off",
+["cooldownTextDisabled"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["auraRotation"] = 0,
+["backgroundOffset"] = 2,
+["wagoID"] = "rAWUGJzlL",
+["parent"] = "Combo Points",
+["adjustedMin"] = "100",
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_power"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["powertype"] = 4,
+["use_spec"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"4",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["use_hand"] = true,
+["event"] = "Power",
+["subeventPrefix"] = "SPELL",
+["use_genericShowOn"] = true,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_form"] = true,
+["auranames"] = {
+"Combo",
+},
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["powertype"] = 3,
+["use_hand"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+["use_spec"] = true,
+["useName"] = false,
+["use_health"] = false,
+["power"] = {
+"1",
+},
+["power_operator"] = {
+">=",
+"==",
+},
+["event"] = "Power",
+["use_requirePowerType"] = true,
+["use_unit"] = true,
+["use_power"] = false,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["names"] = {
+},
+["type"] = "unit",
+["subeventSuffix"] = "_CAST_START",
+["use_track"] = true,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 83,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["version"] = 7,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "buttonOverlay",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 20,
+["rotate"] = false,
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["preferToUpdate"] = false,
+["mirror"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["information"] = {
+},
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = "ClassOverlay-ComboPoint",
+["property"] = "texture",
+},
+},
+},
+},
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["crop_y"] = 0.41,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["semver"] = "1.0.6",
+["backgroundColor"] = {
+0.5,
+0.5,
+0.5,
+0.5,
+},
+["id"] = "4",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["frameStrata"] = 1,
+["width"] = 20,
+["tocversion"] = 11506,
+["foregroundTexture"] = "ClassOverlay-ComboPoint-Off",
+["inverse"] = false,
+["zoom"] = 0,
+["orientation"] = "VERTICAL",
+["crop_x"] = 0.41,
+["cooldown"] = true,
+["uid"] = "gdGXgFlOEVj",
+},
+["Combo Points"] = {
+["grow"] = "RIGHT",
+["controlledChildren"] = {
+"1",
+"2",
+"3",
+"4",
+"5",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["wagoID"] = "rAWUGJzlL",
+["authorOptions"] = {
+},
+["preferToUpdate"] = false,
+["yOffset"] = -208.0445827907987,
+["gridType"] = "RD",
+["fullCircle"] = true,
+["space"] = 5,
+["url"] = "https://wago.io/rAWUGJzlL/7",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+["event"] = "Health",
+["names"] = {
+},
+},
+["untrigger"] = {
+},
+},
+},
+["columnSpace"] = 1,
+["radius"] = 200,
+["selfPoint"] = "LEFT",
+["align"] = "CENTER",
+["frameStrata"] = 1,
+["rotation"] = 0,
+["regionType"] = "dynamicgroup",
+["version"] = 7,
+["rowSpace"] = 1,
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["stagger"] = 0,
+["load"] = {
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["sortHybridTable"] = {
+["1"] = false,
+["3"] = false,
+["2"] = false,
+["5"] = false,
+["4"] = false,
+},
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["arcLength"] = 360,
+["animate"] = false,
+["anchorPoint"] = "CENTER",
+["scale"] = 1,
+["centerType"] = "LR",
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["stepAngle"] = 15,
+["borderSize"] = 2,
+["limit"] = 5,
+["uid"] = "96UFmVaaSHP",
+["borderInset"] = 1,
+["constantFactor"] = "RADIUS",
+["sort"] = "none",
+["borderOffset"] = 4,
+["semver"] = "1.0.6",
+["tocversion"] = 11506,
+["id"] = "Combo Points",
+["alpha"] = 1,
+["gridWidth"] = 5,
+["anchorFrameType"] = "SCREEN",
+["useLimit"] = false,
+["config"] = {
+},
+["xOffset"] = -57.48130416870117,
+["internalVersion"] = 83,
+["conditions"] = {
+},
+["information"] = {
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+},
+},
+["editor_font_size"] = 12,
+["lastArchiveClear"] = 1741827294,
+["minimap"] = {
+["hide"] = false,
+},
+["historyCutoff"] = 730,
+["dbVersion"] = 83,
+["migrationCutoff"] = 730,
+["registered"] = {
+},
+["lastUpgrade"] = 1741827296,
+["features"] = {
+},
+["login_squelch_time"] = 10,
+}

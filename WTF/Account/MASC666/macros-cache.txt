@@ -1,0 +1,24 @@
+VER 3 0000000000000005 "Backstab (PP)" "134400"
+#showtooltip Backstab
+/cast Pick Pocket
+/cast Cheap Shot
+END
+VER 3 0000000000000004 "Cross" "132147"
+/script SetRaidTarget("target", 9)
+END
+VER 3 0000000000000003 "Mark" "133730"
+/script SetRaidTarget("target", 8)
+END
+VER 3 0000000000000006 "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Morgaine the Sly
+/targetexact Thuros Lightfingers
+/targetexact Murloc Streamrunner
+/targetexact Hogger
+/targetexact Murloc Forager
+/targetexact Princess
+/targetexact Billy Maclure
+/targetlasttarget [dead]
+END
+VER 3 0000000000000007 "Wave" "254857"
+/wave %t
+END

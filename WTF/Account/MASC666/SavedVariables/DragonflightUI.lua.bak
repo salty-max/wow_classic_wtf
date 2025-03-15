@@ -1,0 +1,188 @@
+
+DragonflightUIDB = {
+["namespaces"] = {
+["RecipeFavorite"] = {
+},
+["Darkmode"] = {
+},
+["Profiles"] = {
+},
+["Castbar"] = {
+["profiles"] = {
+["Default"] = {
+["target"] = {
+["EditModeActive"] = false,
+["y"] = 59,
+["x"] = 198,
+},
+["player"] = {
+["EditModeActive"] = false,
+["y"] = 392,
+},
+},
+},
+},
+["CharacterStatsPanel"] = {
+},
+["Tooltip"] = {
+["profiles"] = {
+["Default"] = {
+["general"] = {
+["EditModeActive"] = false,
+["y"] = 336,
+},
+},
+},
+},
+["Unitframe"] = {
+["profiles"] = {
+["Default"] = {
+["pet"] = {
+["EditModeActive"] = false,
+},
+["player"] = {
+["EditModeActive"] = false,
+["anchorParent"] = "CENTER",
+["anchor"] = "CENTER",
+["y"] = -274,
+["x"] = -163,
+},
+["party"] = {
+["EditModeActive"] = false,
+["anchorParent"] = "CENTER",
+["anchor"] = "CENTER",
+["y"] = -634,
+["x"] = 696,
+},
+["tot"] = {
+["EditModeActive"] = false,
+},
+["target"] = {
+["EditModeActive"] = false,
+["anchorParent"] = "CENTER",
+["anchor"] = "CENTER",
+["y"] = -274,
+["x"] = 142,
+},
+},
+},
+},
+["Chat"] = {
+},
+["Actionbar"] = {
+["profiles"] = {
+["Default"] = {
+["bar3"] = {
+["EditModeActive"] = false,
+},
+["bar6"] = {
+["EditModeActive"] = false,
+},
+["bags"] = {
+["EditModeActive"] = false,
+},
+["micro"] = {
+["EditModeActive"] = false,
+},
+["xp"] = {
+["EditModeActive"] = false,
+},
+["bar8"] = {
+["EditModeActive"] = false,
+},
+["bar1"] = {
+["EditModeActive"] = false,
+},
+["bar4"] = {
+["EditModeActive"] = false,
+},
+["bar2"] = {
+["EditModeActive"] = false,
+},
+["possess"] = {
+["EditModeActive"] = false,
+},
+["rep"] = {
+["EditModeActive"] = false,
+},
+["fps"] = {
+["EditModeActive"] = false,
+},
+["bar7"] = {
+["EditModeActive"] = false,
+["y"] = 3,
+},
+["bar5"] = {
+["EditModeActive"] = false,
+},
+["pet"] = {
+["EditModeActive"] = false,
+},
+["stance"] = {
+["EditModeActive"] = false,
+},
+},
+},
+},
+["Config"] = {
+["profiles"] = {
+["Default"] = {
+["modules"] = {
+["Darkmode"] = true,
+["Chat"] = true,
+},
+},
+},
+},
+["Minimap"] = {
+["profiles"] = {
+["Default"] = {
+["durability"] = {
+["EditModeActive"] = false,
+},
+["lfg"] = {
+["EditModeActive"] = false,
+},
+["tracker"] = {
+["EditModeActive"] = false,
+},
+["minimap"] = {
+["EditModeActive"] = false,
+["y"] = -118,
+},
+},
+},
+},
+["Bossframe"] = {
+},
+["UI"] = {
+},
+["Buffs"] = {
+["profiles"] = {
+["Default"] = {
+["buffs"] = {
+["EditModeActive"] = false,
+["y"] = -20,
+},
+["debuffs"] = {
+["EditModeActive"] = false,
+["y"] = -128,
+},
+},
+},
+},
+["Editmode"] = {
+},
+["Utility"] = {
+},
+},
+["profileKeys"] = {
+["Caliawen - Soulseeker"] = "Default",
+["Namzan - Soulseeker"] = "Default",
+["Namzan - Thunderstrike"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

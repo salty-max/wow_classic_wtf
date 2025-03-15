@@ -1,0 +1,34 @@
+
+MayronUIdb = {
+["appended"] = {
+},
+["profileKeys"] = {
+["Caliawen-Thunderstrike"] = "Caliawen-Thunderstrike",
+},
+["global"] = {
+["installed"] = {
+["Caliawen-Thunderstrike"] = true,
+},
+},
+["profiles"] = {
+["Default"] = {
+},
+["Caliawen-Thunderstrike"] = {
+},
+},
+}
+MUI_TimerBarsDb = {
+["appended"] = {
+},
+["profileKeys"] = {
+["Caliawen-Thunderstrike"] = "Default",
+},
+["global"] = {
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}
+MUI_AurasDB = nil
+MUI_InventoryDB = nil

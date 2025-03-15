@@ -1,0 +1,818 @@
+
+Bartender4DB = {
+["namespaces"] = {
+["ActionBars"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["actionbars"] = {
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 85.916748046875,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 127.8090896606445,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 169.3550109863281,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["buttons"] = 9,
+["rows"] = 4,
+["position"] = {
+["y"] = 169.1764678955078,
+["x"] = 188.5001220703125,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["version"] = 3,
+["buttons"] = 6,
+["rows"] = 3,
+["position"] = {
+["y"] = 168.7663879394531,
+["x"] = -273.4996337890625,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = -40.816650390625,
+["x"] = -78.1583251953125,
+["point"] = "CENTER",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Namzan - Soulseeker"] = {
+["actionbars"] = {
+{
+["buttons"] = 9,
+["version"] = 3,
+["position"] = {
+["y"] = 85.916748046875,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["buttons"] = 9,
+["version"] = 3,
+["position"] = {
+["y"] = 127.8090896606445,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["buttons"] = 9,
+["version"] = 3,
+["position"] = {
+["y"] = 169.3550109863281,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["rows"] = 4,
+["buttons"] = 9,
+["version"] = 3,
+["position"] = {
+["y"] = 169.1764678955078,
+["x"] = 188.5001220703125,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["rows"] = 3,
+["buttons"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 168.7663879394531,
+["x"] = -273.4996337890625,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -40.816650390625,
+["x"] = -78.1583251953125,
+["point"] = "CENTER",
+},
+["padding"] = 6,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Caliawen - Thunderstrike"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -228.5,
+["x"] = -230.499755859375,
+["point"] = "CENTER",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Ersilia - Soulseeker"] = {
+["actionbars"] = {
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 85.916748046875,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 127.8090896606445,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 169.3550109863281,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["buttons"] = 6,
+["rows"] = 3,
+["position"] = {
+["y"] = 169.1764678955078,
+["x"] = 188.5001220703125,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["version"] = 3,
+["buttons"] = 6,
+["rows"] = 3,
+["position"] = {
+["y"] = 168.7663879394531,
+["x"] = -273.4996337890625,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = -40.816650390625,
+["x"] = -78.1583251953125,
+["point"] = "CENTER",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Namzan - Thunderstrike"] = {
+["actionbars"] = {
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 85.916748046875,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 127.8090896606445,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["buttons"] = 9,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 169.3550109863281,
+["x"] = -189.4998474121094,
+["point"] = "BOTTOM",
+},
+},
+{
+["version"] = 3,
+["buttons"] = 9,
+["rows"] = 4,
+["position"] = {
+["y"] = 169.1764678955078,
+["x"] = 188.5001220703125,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["version"] = 3,
+["buttons"] = 6,
+["rows"] = 3,
+["position"] = {
+["y"] = 168.7663879394531,
+["x"] = -273.4996337890625,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = -40.816650390625,
+["x"] = -78.1583251953125,
+["point"] = "CENTER",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+},
+},
+["MicroMenu"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 48.02223205566406,
+["x"] = -239.73876953125,
+["point"] = "BOTTOMRIGHT",
+["scale"] = 1,
+},
+},
+["Namzan - Soulseeker"] = {
+["position"] = {
+["y"] = 48.02223205566406,
+["x"] = -239.73876953125,
+["point"] = "BOTTOMRIGHT",
+["scale"] = 1,
+},
+["version"] = 3,
+["padding"] = -2,
+},
+["Caliawen - Thunderstrike"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Ersilia - Soulseeker"] = {
+["padding"] = 0,
+["version"] = 3,
+["position"] = {
+["y"] = 36.50483758009727,
+["x"] = -232.3329841477971,
+["point"] = "BOTTOMRIGHT",
+["scale"] = 0.800000011920929,
+},
+},
+["Namzan - Thunderstrike"] = {
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 48.02223205566406,
+["x"] = -239.73876953125,
+["point"] = "BOTTOMRIGHT",
+["scale"] = 1,
+},
+},
+},
+},
+["XPBar"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 23.26951328619589,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+["Namzan - Soulseeker"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 23.26951328619589,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+["version"] = 3,
+},
+["Caliawen - Thunderstrike"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Ersilia - Soulseeker"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 23.26951328619589,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+["Namzan - Thunderstrike"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 23.26951328619589,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+},
+},
+["BlizzardArt"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Soulseeker"] = {
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Caliawen - Thunderstrike"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Ersilia - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["BagBar"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 96.07048034667969,
+["x"] = -250.1552734375,
+["point"] = "BOTTOMRIGHT",
+},
+},
+["Namzan - Soulseeker"] = {
+["verticalAlignment"] = "CENTER",
+["version"] = 3,
+["position"] = {
+["y"] = 96.07048034667969,
+["x"] = -250.1552734375,
+["point"] = "BOTTOMRIGHT",
+},
+["padding"] = 5,
+},
+["Caliawen - Thunderstrike"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 272,
+["point"] = "BOTTOM",
+},
+},
+["Ersilia - Soulseeker"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 42.5000114440918,
+["x"] = 428.9892578125,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Thunderstrike"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 96.07048034667969,
+["x"] = -250.1552734375,
+["point"] = "BOTTOMRIGHT",
+},
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 127.6097640991211,
+["x"] = -360.3553466796875,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Soulseeker"] = {
+["position"] = {
+["y"] = 127.6097640991211,
+["x"] = -360.3553466796875,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Caliawen - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.50003051757813,
+["x"] = 104.500244140625,
+["point"] = "CENTER",
+},
+},
+["Ersilia - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 127.6097640991211,
+["x"] = -360.3553466796875,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 127.6097640991211,
+["x"] = -360.3553466796875,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["StanceBar"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 221.2174072265625,
+["x"] = -27.74989318847656,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 221.2174072265625,
+["x"] = -27.74989318847656,
+["point"] = "BOTTOM",
+},
+},
+["Caliawen - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Ersilia - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 221.2174072265625,
+["x"] = -27.74989318847656,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 221.2174072265625,
+["x"] = -27.74989318847656,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["PetBar"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 204.3899536132813,
+["x"] = -162.4999389648438,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 204.3899536132813,
+["x"] = -162.4999389648438,
+["point"] = "BOTTOM",
+},
+},
+["Caliawen - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["Ersilia - Soulseeker"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 204.3899536132813,
+["x"] = -162.4999389648438,
+["point"] = "BOTTOM",
+},
+},
+["Namzan - Thunderstrike"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 204.3899536132813,
+["x"] = -162.4999389648438,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["RepBar"] = {
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 38.04116572799035,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+["Namzan - Soulseeker"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 38.04116572799035,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+["version"] = 3,
+},
+["Caliawen - Thunderstrike"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Ersilia - Soulseeker"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 38.04116572799035,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+["Namzan - Thunderstrike"] = {
+["enabled"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 38.04116572799035,
+["x"] = -409.1999925341879,
+["point"] = "BOTTOM",
+["scale"] = 0.800000011920929,
+},
+},
+},
+},
+},
+["profileKeys"] = {
+["Tiorfan - Spineshatter"] = "Tiorfan - Spineshatter",
+["Namzan - Soulseeker"] = "Namzan - Soulseeker",
+["Caliawen - Thunderstrike"] = "Namzan - Soulseeker",
+["Ersilia - Soulseeker"] = "Ersilia - Soulseeker",
+["Namzan - Thunderstrike"] = "Namzan - Thunderstrike",
+},
+["profiles"] = {
+["Tiorfan - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Namzan - Soulseeker"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Caliawen - Thunderstrike"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Ersilia - Soulseeker"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Namzan - Thunderstrike"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+},
+}
