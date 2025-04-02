@@ -1,0 +1,24 @@
+VER 3 0000000001000005 "Arcane Intellect" "135932"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Arcane Intellect
+END
+VER 3 0000000001000003 "Fire Blast" "135807"
+#showtooltip
+/cast Fire Blast
+END
+VER 3 0000000001000002 "Fireball" "135812"
+#showtooltip
+/cast Fireball
+END
+VER 3 0000000001000006 "Frost Nova" "135848"
+#showtooltip
+/cast Frost Nova
+END
+VER 3 0000000001000001 "Frostbolt" "135846"
+#showtooltip
+/cast Frostbolt
+END
+VER 3 0000000001000004 "Polymorph" "136071"
+#showtooltip Polymorph
+/cast [@mouseover,harm,nodead][harm,nodead] Polymorph
+END

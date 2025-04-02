@@ -1,0 +1,5 @@
+VER 3 0000000001000001 "Auto Shot" "135610"
+#showtooltip Auto Shot
+/cast !auto shot
+/petattack
+END

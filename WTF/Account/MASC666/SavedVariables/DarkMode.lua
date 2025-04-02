@@ -2,22 +2,16 @@
 DMTAB = {
 ["PROFILES"] = {
 ["DEFAULT"] = {
-["FRAMES"] = {
-["POINTS"] = {
-},
-["SIZES"] = {
-},
-},
 ["ELES"] = {
-["SIZES"] = {
-},
 ["POINTS"] = {
 ["DMSettings"] = {
 ["RE"] = "RIGHT",
 ["PY"] = -42.66677093505859,
-["AN"] = "RIGHT",
 ["PX"] = -217.0884552001953,
+["AN"] = "RIGHT",
 },
+},
+["SIZES"] = {
 },
 ["OPTIONS"] = {
 ["MASKBUFFSANDDEBUFFS"] = {
@@ -26,23 +20,29 @@ DMTAB = {
 ["MASKMINIMAPBUTTONS"] = {
 ["ENABLED"] = true,
 },
-["ACTIONBARS"] = {
-},
-["THINBORDERS"] = {
+["MASKACTIONBUTTONS"] = {
 ["ENABLED"] = true,
 },
 ["GRYPHONS"] = {
-["ENABLED"] = true,
-},
-["MMBTN"] = {
-["ENABLED"] = true,
+["ENABLED"] = false,
 },
 ["SETTINGS"] = {
 ["ENABLED"] = false,
 },
-["MASKACTIONBUTTONS"] = {
+["MMBTN"] = {
 ["ENABLED"] = true,
 },
+["THINBORDERS"] = {
+["ENABLED"] = true,
+},
+["ACTIONBARS"] = {
+},
+},
+},
+["FRAMES"] = {
+["POINTS"] = {
+},
+["SIZES"] = {
 },
 },
 },
@@ -51,15 +51,15 @@ DMTAB = {
 ["DarkMode"] = {
 },
 ["VALUES"] = {
-["COLORMODEAB"] = 1,
+["COLORMODEAB"] = 6,
 ["COLORMODEUNFRDRA"] = 1,
-["COLORMODE"] = 1,
-["COLORMODEG"] = 1,
-["COLORMODEBAD"] = 1,
-["COLORMODEF"] = 1,
-["COLORMODETT"] = 1,
-["COLORMODENP"] = 1,
-["COLORMODEUNFR"] = 1,
+["COLORMODE"] = 6,
+["COLORMODEG"] = 6,
+["COLORMODEBAD"] = 6,
+["COLORMODEF"] = 6,
+["COLORMODENP"] = 6,
+["COLORMODETT"] = 6,
+["COLORMODEUNFR"] = 6,
 },
 ["minimapPos"] = 0,
 }

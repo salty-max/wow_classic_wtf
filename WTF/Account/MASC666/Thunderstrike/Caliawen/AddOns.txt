@@ -41,3 +41,4 @@ WeaponSwingTimer: disabled
 TradeSkillMaster: disabled
 Deathlog: disabled
 CodexLite: disabled
+TidyPlates_ThreatPlates: disabled

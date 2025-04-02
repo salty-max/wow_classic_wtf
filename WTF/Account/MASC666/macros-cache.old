@@ -1,21 +1,151 @@
+VER 3 0000000000000009 "AS" "135493"
+#showtooltip Auto Shot
+/cast !auto shot
+/petattack
+END
 VER 3 0000000000000005 "Backstab (PP)" "134400"
 #showtooltip Backstab
 /cast Pick Pocket
 /cast Cheap Shot
 END
+VER 3 0000000000000024 "Charge" "132337"
+#showtooltip
+/cast Charge
+/cast Rend
+/startattack
+END
+VER 3 000000000000000D "Corruption" "136118"
+#showtooltip
+/cast Corruption
+/petattack
+END
 VER 3 0000000000000004 "Cross" "132147"
 /script SetRaidTarget("target", 9)
+END
+VER 3 000000000000000E "Curse of Agony" "136139"
+#showtooltip Curse of Agony
+/cast [@mouseover,harm,nodead][harm,nodead] Curse of Agony
+END
+VER 3 0000000000000014 "Dispel Magic" "135894"
+#showtooltip
+/cast [@mouseover,help,nodead] Dispel Magic;
+[harm,nodead] [exists,nodead][@player] Dispel Magic;
+END
+VER 3 000000000000001A "Dynamic Cam" "237290"
+/console ActionCam full
+END
+VER 3 0000000000000025 "Fear" "136183"
+#showtooltip Fear
+/cast [@mouseover,harm,nodead][harm,nodead] Fear
+END
+VER 3 0000000000000012 "Fortitude" "135987"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Power Word: Fortitude
+END
+VER 3 0000000000000017 "HD" "237281"
+/console groundEffectDensity 256
+/console groundEffectDist 200
+/console detailDoodadAlpha 100
+/console horizonfarclip 2112
+/console farclip 999
+/console characterAmbient 
+/console skyCloudLod 3
+/console waterDetail 3
+/console sunshaft 2
+END
+VER 3 0000000000000023 "Heal" "135915"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Heal
+END
+VER 3 000000000000001E "Holy Light" "135920"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light
+END
+VER 3 000000000000001F "Holy Light 2" "135920"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Holy Light(Rank 2)
+END
+VER 3 000000000000000C "Immolate" "135817"
+#showtooltip Immolate
+/cast Immolate
+/petattack
+END
+VER 3 0000000000000020 "Lay on Hands" "135928"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Lay on Hands
+END
+VER 3 0000000000000016 "Lesser Heal" "135929"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Lesser Heal
+END
+VER 3 0000000000000015 "Lesser Heal 2" "135929"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Lesser Heal(Rank 2)
 END
 VER 3 0000000000000003 "Mark" "133730"
 /script SetRaidTarget("target", 8)
 END
-VER 3 0000000000000006 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Morgaine the Sly
-/targetexact Thuros Lightfingers
-/targetexact Murloc Streamrunner
-/targetexact Hogger
-/targetexact Murloc Forager
-/targetexact Princess
-/targetexact Billy Maclure
-/targetlasttarget [dead]
+VER 3 0000000000000021 "Might" "135906"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Blessing of Might
+END
+VER 3 000000000000001B "Normal Cam" "237290"
+/console ActionCam off
+END
+VER 3 000000000000001D "Not Sharpen" "135994"
+/console set ResampleAlwaysSharpen 0
+END
+VER 3 0000000000000010 "Pain" "136207"
+#showtooltip Shadow Word: Pain
+/cast [@mouseover,harm,nodead][harm,nodead] Shadow Word: Pain
+/use !Shoot
+END
+VER 3 0000000000000022 "Purify" "135949"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Purify
+END
+VER 3 000000000000000B "Raptor Strike" "132223"
+#showtooltip Raptor Strike
+/startattack
+/cast Raptor Strike
+END
+VER 3 000000000000000A "Recall" "132311"
+/petpassive
+END
+VER 3 0000000000000011 "Renew" "135953"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Renew
+END
+VER 3 0000000000000018 "SD" "237283"
+/console groundEffectDensity 16
+/console groundEffectDist 1
+/console horizonfarclip 1305
+/console farclip 177
+/console characterAmbient 1
+/console smallcull 1
+/console skycloudlod 1
+/console detailDoodadAlpha 1
+END
+VER 3 0000000000000019 "Shadows" "136073"
+/console shadowTextureSize 1024
+/console shadowMode 3
+/console ssao 1
+/console ssaoBlur 2
+END
+VER 3 000000000000001C "Sharpen" "136047"
+/console set ResampleAlwaysSharpen 1
+END
+VER 3 0000000000000013 "Shield" "135940"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Power Word: Shield
+END
+VER 3 000000000000000F "Shoot" "135144"
+#showtooltip
+/use !shoot
+END
+VER 3 0000000000000008 "Thanks" "237554"
+/thanks %t
+END
+VER 3 0000000000000007 "Wave" "254857"
+/wave %t
 END

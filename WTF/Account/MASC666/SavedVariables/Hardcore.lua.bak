@@ -1,0 +1,55 @@
+
+Hardcore_Settings = {
+["monitor"] = false,
+["filter_f_in_chat"] = false,
+["notify"] = true,
+["use_alternative_menu"] = false,
+["hardcore_player_name"] = "",
+["alert_frame_y_offset"] = -150,
+["sacrifice"] = {
+},
+["death_log_pos"] = {
+["y"] = -34.39959716796875,
+["x"] = 187.3334350585938,
+},
+["death_log_entries"] = {
+{
+["class_id"] = 8,
+["guild"] = "Back to Brill",
+["date"] = "Wed Mar 19 17:49:54 2025",
+["map_pos"] = "0.4996,0.5751",
+["last_words"] = "ty",
+["name"] = "Màry",
+["race_id"] = 5,
+["level"] = 19,
+["map_id"] = 1413,
+["source_id"] = 3263,
+},
+{
+["class_id"] = 11,
+["guild"] = "que me quedo sin comer",
+["date"] = "Fri Mar 28 02:14:36 2025",
+["map_pos"] = "0.3726,0.3186",
+["source_id"] = 2033,
+["name"] = "Naikas",
+["last_words"] = "",
+["map_id"] = 1438,
+["level"] = 9,
+["race_id"] = 4,
+},
+},
+["alert_frame_scale"] = 0.7,
+["mute_death_alert_sounds"] = false,
+["alert_frame_x_offset"] = 0,
+["global_custom_pronoun"] = false,
+["level_list"] = {
+},
+["reload_reminder_show"] = true,
+["show_version_in_chat"] = false,
+["reload_reminder_interval"] = 0,
+["debug_log"] = {
+},
+["show_minimap_mailbox_icon"] = false,
+}
+Backup_Character_Data = {
+}

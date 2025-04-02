@@ -98,6 +98,7 @@ BAGANATOR_CONFIG = {
 ["hide_boe_on_common"] = false,
 ["bank_view_type"] = "single",
 ["icon_grey_junk"] = false,
+["category_sort_method"] = "type",
 ["sort_start_at_bottom"] = false,
 ["icon_top_right_corner_array"] = {
 },
@@ -117,6 +118,7 @@ BAGANATOR_CONFIG = {
 ["debug_timers"] = false,
 ["seen_welcome"] = 1,
 ["hide_special_container"] = {
+["quiver"] = false,
 ["keyring"] = true,
 },
 ["bag_empty_space_at_top"] = false,
@@ -126,9 +128,10 @@ BAGANATOR_CONFIG = {
 ["icon_context_fading"] = true,
 ["currency_headers_collapsed"] = {
 },
+["icon_mark_unusable"] = false,
 ["saved_searches"] = {
 },
-["icon_mark_unusable"] = false,
+["sort_ignore_slots_at_end"] = false,
 ["category_modifications"] = {
 ["default_weapon"] = {
 ["addedItems"] = {
@@ -150,7 +153,8 @@ BAGANATOR_CONFIG = {
 },
 },
 ["warband_bank_view_width"] = 14,
-["sort_ignore_slots_at_end"] = false,
+["category_section_toggled"] = {
+},
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
 ["bank_current_tab"] = 1,
@@ -161,33 +165,39 @@ BAGANATOR_CONFIG = {
 },
 ["Tiorfan-Spineshatter"] = {
 },
+["Broucouille-Soulseeker"] = {
+},
+["Tiorfan-Soulseeker"] = {
+},
+["Ersilia-Soulseeker"] = {
+},
+["Félindra-Soulseeker"] = {
+},
 ["Caliawen-Soulseeker"] = {
+},
+["Hellefie-Soulseeker"] = {
+},
+["Smectalia-Soulseeker"] = {
+},
+["Rimahamas-Soulseeker"] = {
+},
+["Gurdhil-Soulseeker"] = {
 },
 ["Caliawen-Thunderstrike"] = {
 },
 },
-["category_section_toggled"] = {
-},
-["icon_text_font_size"] = 14,
 ["lock_frames"] = false,
+["icon_text_font_size"] = 14,
+["category_group_empty_slots"] = true,
+["guild_current_tab"] = 1,
+["disabled_skins"] = {
+},
 ["sort_ignore_slots_count_2"] = {
 ["Namzan-Thunderstrike"] = 0,
 ["Caliawen-Thunderstrike"] = 0,
 },
-["disabled_skins"] = {
-},
-["bag_view_width"] = 8,
-["guild_current_tab"] = 1,
 ["bag_view_type"] = "single",
-["recent_characters_main_view"] = {
-"Caliawen-Thunderstrike",
-"Tiorfan-Spineshatter",
-"Namzan-Thunderstrike",
-"Namzan-Soulseeker",
-"Caliawen-Soulseeker",
-"Ersilia-Soulseeker",
-},
-["debug_keywords"] = false,
+["category_migration"] = 5,
 ["character_select_position"] = {
 "RIGHT",
 "Baganator_SingleViewBackpackViewFrameblizzard",
@@ -195,7 +205,22 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["auto_sort_on_open"] = false,
+["recent_characters_main_view"] = {
+"Namzan-Soulseeker",
+"Tiorfan-Soulseeker",
+"Gurdhil-Soulseeker",
+"Broucouille-Soulseeker",
+"Rimahamas-Soulseeker",
+"Ersilia-Soulseeker",
+"Hellefie-Soulseeker",
+"Félindra-Soulseeker",
+"Smectalia-Soulseeker",
+"Caliawen-Thunderstrike",
+"Tiorfan-Spineshatter",
+"Namzan-Thunderstrike",
+"Caliawen-Soulseeker",
+"Failindra-Thunderstrike",
+},
 ["category_sections"] = {
 ["1"] = {
 ["name"] = "EQUIPMENT",
@@ -204,13 +229,15 @@ BAGANATOR_CONFIG = {
 ["name"] = "CRAFTING",
 },
 },
+["auto_sort_on_open"] = false,
 ["setting_anchors"] = false,
+["icon_text_quality_colors"] = true,
+["show_buttons_on_alt"] = false,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
--312.3931884765625,
-253.1971893310547,
+-349.36962890625,
+258.8861694335938,
 },
-["show_buttons_on_alt"] = false,
 ["guild_view_dialog_position"] = {
 "BOTTOM",
 "Baganator_GuildViewFrame",
@@ -218,7 +245,6 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["icon_text_quality_colors"] = true,
 ["upgrade_plugin_ignored"] = {
 },
 ["skins"] = {
@@ -237,9 +263,10 @@ BAGANATOR_CONFIG = {
 ["empty_slot_background"] = false,
 },
 },
+["debug_keywords"] = false,
 ["show_sort_button_2"] = true,
-["category_migration"] = 5,
 ["bag_icon_size"] = 37,
+["bag_view_width"] = 8,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_SingleViewBackpackViewFrameblizzard",
@@ -248,14 +275,14 @@ BAGANATOR_CONFIG = {
 0,
 },
 ["icon_equipment_set_border"] = true,
-["category_group_empty_slots"] = true,
 ["currencies_tracked_imported"] = {
-},
-["custom_categories"] = {
 },
 ["icon_bottom_left_corner_array"] = {
 "bag_type",
 "equipment_set",
 },
+["custom_categories"] = {
+},
+["migrated_sort_method"] = true,
 }
 BAGANATOR_DATA = nil

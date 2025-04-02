@@ -98,6 +98,7 @@ BAGANATOR_CONFIG = {
 ["hide_boe_on_common"] = false,
 ["bank_view_type"] = "single",
 ["icon_grey_junk"] = false,
+["category_sort_method"] = "type",
 ["sort_start_at_bottom"] = false,
 ["icon_top_right_corner_array"] = {
 },
@@ -117,17 +118,19 @@ BAGANATOR_CONFIG = {
 ["debug_timers"] = false,
 ["seen_welcome"] = 1,
 ["hide_special_container"] = {
+["quiver"] = false,
 ["keyring"] = true,
 },
 ["bag_empty_space_at_top"] = false,
 ["category_horizontal_spacing_2"] = 0.25,
 ["category_default_import"] = 3,
 ["debug_categories"] = false,
+["migrated_sort_method"] = true,
+["custom_categories"] = {
+},
 ["icon_bottom_left_corner_array"] = {
 "bag_type",
 "equipment_set",
-},
-["custom_categories"] = {
 },
 ["saved_searches"] = {
 },
@@ -165,14 +168,30 @@ BAGANATOR_CONFIG = {
 },
 ["Tiorfan-Spineshatter"] = {
 },
+["Tiorfan-Soulseeker"] = {
+},
+["Broucouille-Soulseeker"] = {
+},
+["Rimahamas-Soulseeker"] = {
+},
+["Smectalia-Soulseeker"] = {
+},
 ["Caliawen-Soulseeker"] = {
+},
+["Hellefie-Soulseeker"] = {
+},
+["Félindra-Soulseeker"] = {
+},
+["Ersilia-Soulseeker"] = {
+},
+["Gurdhil-Soulseeker"] = {
 },
 ["Namzan-Thunderstrike"] = {
 },
 },
-["category_group_empty_slots"] = true,
-["icon_text_font_size"] = 14,
 ["icon_equipment_set_border"] = true,
+["icon_text_font_size"] = 14,
+["category_group_empty_slots"] = true,
 ["bag_view_width"] = 8,
 ["disabled_skins"] = {
 },
@@ -184,12 +203,20 @@ BAGANATOR_CONFIG = {
 ["category_migration"] = 5,
 ["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
+"Namzan-Soulseeker",
+"Tiorfan-Soulseeker",
+"Gurdhil-Soulseeker",
+"Broucouille-Soulseeker",
+"Rimahamas-Soulseeker",
+"Ersilia-Soulseeker",
+"Hellefie-Soulseeker",
+"Félindra-Soulseeker",
+"Smectalia-Soulseeker",
 "Caliawen-Thunderstrike",
 "Tiorfan-Spineshatter",
 "Namzan-Thunderstrike",
-"Namzan-Soulseeker",
 "Caliawen-Soulseeker",
-"Ersilia-Soulseeker",
+"Failindra-Thunderstrike",
 },
 ["skins"] = {
 ["blizzard"] = {
@@ -213,8 +240,8 @@ BAGANATOR_CONFIG = {
 ["icon_text_quality_colors"] = true,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
--312.3931884765625,
-253.1971893310547,
+-349.36962890625,
+258.8861694335938,
 },
 ["show_buttons_on_alt"] = false,
 ["guild_view_dialog_position"] = {

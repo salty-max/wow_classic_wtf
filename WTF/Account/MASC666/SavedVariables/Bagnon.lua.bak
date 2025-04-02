@@ -5,21 +5,22 @@ Bagnon_Sets = {
 ["global"] = {
 ["inventory"] = {
 ["enabled"] = true,
-["point"] = "TOPRIGHT",
+["point"] = "BOTTOMRIGHT",
 ["lockedSlots"] = {
 },
 ["color"] = {
 },
-["borderColor"] = {
-},
-["y"] = -341.5175170898438,
-["x"] = -65.702392578125,
-["search"] = true,
-["skin"] = "Bagnon",
 ["hiddenBags"] = {
 },
+["skin"] = "Barber",
+["y"] = 187.3075866699219,
+["x"] = -79.8153076171875,
+["search"] = true,
+["spacing"] = 0,
 ["columns"] = 8,
-["showBags"] = true,
+["borderColor"] = {
+},
+["bagBreak"] = 1,
 ["filters"] = {
 "all",
 "normal",
@@ -63,16 +64,18 @@ Bagnon_Sets = {
 },
 },
 ["bank"] = {
-["y"] = -308.5999145507813,
-["x"] = 483.2666931152344,
-["point"] = "TOPLEFT",
-["borderColor"] = {
+["brokerObject"] = "Prat",
+["point"] = "BOTTOMLEFT",
+["lockedSlots"] = {
 },
 ["color"] = {
 },
-["hiddenBags"] = {
+["y"] = 250.9999084472656,
+["x"] = 508.8666687011719,
+["borderColor"] = {
 },
-["lockedSlots"] = {
+["showBags"] = true,
+["hiddenBags"] = {
 },
 ["filters"] = {
 "all",
@@ -89,35 +92,36 @@ Bagnon_Sets = {
 ["color"] = {
 ["quiver"] = {
 },
-["herb"] = {
+["account"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
 ["soul"] = {
 },
-["inscribe"] = {
+["reagent"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["engineer"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["fridge"] = {
 },
-["engineer"] = {
+["gem"] = {
 },
 ["key"] = {
 },
 ["tackle"] = {
 },
-["reagent"] = {
+["leather"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
-["account"] = {
+["herb"] = {
 },
 },
+["slotBackground"] = 1,
 ["display"] = {
 ["combat"] = true,
 ["mapFrame"] = true,

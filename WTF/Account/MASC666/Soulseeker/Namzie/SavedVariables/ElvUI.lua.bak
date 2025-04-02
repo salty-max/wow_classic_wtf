@@ -1,0 +1,25 @@
+
+ElvCharacterDB = {
+["ConvertKeybindings"] = true,
+["ChatEditHistory"] = {
+"/ec",
+"/cw Faelira inv :)",
+"/p hello !",
+"/p o/",
+"/p omw",
+"/g gz!",
+"/g don;t wanna point finger but he was spanish xD",
+"/wave",
+"/p ty :)",
+"/p I do",
+"/p only got 1 cqrd xD",
+"/p y",
+"/p need water Fae ?",
+"/p np",
+"/p dunno its weird",
+"/p gz",
+"/reload",
+},
+["ChatHistoryLog"] = {
+},
+}

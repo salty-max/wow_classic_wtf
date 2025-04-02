@@ -12,12 +12,20 @@ DragonflightUIDB = {
 ["Default"] = {
 ["target"] = {
 ["EditModeActive"] = false,
-["y"] = 59,
 ["x"] = 198,
+["y"] = 59,
 },
 ["player"] = {
 ["EditModeActive"] = false,
 ["y"] = 392,
+},
+},
+["Custom"] = {
+["target"] = {
+["EditModeActive"] = false,
+},
+["player"] = {
+["EditModeActive"] = false,
 },
 },
 },
@@ -32,37 +40,61 @@ DragonflightUIDB = {
 ["y"] = 336,
 },
 },
+["Custom"] = {
+["general"] = {
+["EditModeActive"] = false,
+["showItemQualityBackdrop"] = true,
+["showItemStackCount"] = true,
+},
+},
 },
 },
 ["Unitframe"] = {
 ["profiles"] = {
 ["Default"] = {
-["pet"] = {
-["EditModeActive"] = false,
-},
 ["player"] = {
 ["EditModeActive"] = false,
+["x"] = -163,
 ["anchorParent"] = "CENTER",
 ["anchor"] = "CENTER",
 ["y"] = -274,
-["x"] = -163,
-},
-["party"] = {
-["EditModeActive"] = false,
-["anchorParent"] = "CENTER",
-["anchor"] = "CENTER",
-["y"] = -634,
-["x"] = 696,
 },
 ["tot"] = {
 ["EditModeActive"] = false,
 },
 ["target"] = {
 ["EditModeActive"] = false,
+["x"] = 142,
 ["anchorParent"] = "CENTER",
 ["anchor"] = "CENTER",
 ["y"] = -274,
-["x"] = 142,
+},
+["pet"] = {
+["EditModeActive"] = false,
+},
+["party"] = {
+["EditModeActive"] = false,
+["x"] = 696,
+["anchorParent"] = "CENTER",
+["anchor"] = "CENTER",
+["y"] = -634,
+},
+},
+["Custom"] = {
+["pet"] = {
+["EditModeActive"] = false,
+},
+["party"] = {
+["EditModeActive"] = false,
+},
+["player"] = {
+["EditModeActive"] = false,
+},
+["tot"] = {
+["EditModeActive"] = false,
+},
+["target"] = {
+["EditModeActive"] = false,
 },
 },
 },
@@ -78,47 +110,107 @@ DragonflightUIDB = {
 ["bar6"] = {
 ["EditModeActive"] = false,
 },
-["bags"] = {
-["EditModeActive"] = false,
-},
-["micro"] = {
-["EditModeActive"] = false,
-},
-["xp"] = {
-["EditModeActive"] = false,
-},
-["bar8"] = {
-["EditModeActive"] = false,
-},
-["bar1"] = {
-["EditModeActive"] = false,
-},
 ["bar4"] = {
 ["EditModeActive"] = false,
 },
 ["bar2"] = {
 ["EditModeActive"] = false,
 },
-["possess"] = {
+["bar1"] = {
 ["EditModeActive"] = false,
 },
-["rep"] = {
+["bags"] = {
+["EditModeActive"] = false,
+},
+["micro"] = {
 ["EditModeActive"] = false,
 },
 ["fps"] = {
+["EditModeActive"] = false,
+},
+["bar8"] = {
+["EditModeActive"] = false,
+},
+["pet"] = {
 ["EditModeActive"] = false,
 },
 ["bar7"] = {
 ["EditModeActive"] = false,
 ["y"] = 3,
 },
+["possess"] = {
+["EditModeActive"] = false,
+},
 ["bar5"] = {
+["EditModeActive"] = false,
+},
+["rep"] = {
+["EditModeActive"] = false,
+},
+["xp"] = {
+["EditModeActive"] = false,
+},
+["stance"] = {
+["EditModeActive"] = false,
+},
+},
+["Custom"] = {
+["bar3"] = {
+["EditModeActive"] = false,
+["buttons"] = 9,
+["buttonScale"] = 1,
+},
+["bar6"] = {
+["EditModeActive"] = false,
+},
+["bags"] = {
+["EditModeActive"] = false,
+["hideArrow"] = true,
+},
+["micro"] = {
 ["EditModeActive"] = false,
 },
 ["pet"] = {
 ["EditModeActive"] = false,
 },
+["bar8"] = {
+["EditModeActive"] = false,
+},
+["bar1"] = {
+["buttonScale"] = 1,
+["buttons"] = 9,
+["EditModeActive"] = false,
+},
 ["stance"] = {
+["EditModeActive"] = false,
+},
+["bar2"] = {
+["EditModeActive"] = false,
+["buttons"] = 9,
+["buttonScale"] = 1,
+},
+["possess"] = {
+["EditModeActive"] = false,
+},
+["bar5"] = {
+["EditModeActive"] = false,
+["x"] = 80,
+},
+["fps"] = {
+["alwaysShowFPS"] = true,
+["EditModeActive"] = false,
+},
+["bar7"] = {
+["EditModeActive"] = false,
+},
+["rep"] = {
+["EditModeActive"] = false,
+},
+["xp"] = {
+["alwaysShowXP"] = true,
+["EditModeActive"] = false,
+},
+["bar4"] = {
 ["EditModeActive"] = false,
 },
 },
@@ -130,6 +222,13 @@ DragonflightUIDB = {
 ["modules"] = {
 ["Darkmode"] = true,
 ["Chat"] = true,
+},
+},
+["Custom"] = {
+["modules"] = {
+["Chat"] = true,
+["Minimap"] = false,
+["Utility"] = true,
 },
 },
 },
@@ -151,6 +250,20 @@ DragonflightUIDB = {
 ["y"] = -118,
 },
 },
+["Custom"] = {
+["tracker"] = {
+["EditModeActive"] = false,
+},
+["minimap"] = {
+["EditModeActive"] = false,
+},
+["durability"] = {
+["EditModeActive"] = false,
+},
+["lfg"] = {
+["EditModeActive"] = false,
+},
+},
 },
 },
 ["Bossframe"] = {
@@ -169,6 +282,14 @@ DragonflightUIDB = {
 ["y"] = -128,
 },
 },
+["Custom"] = {
+["buffs"] = {
+["EditModeActive"] = false,
+},
+["debuffs"] = {
+["EditModeActive"] = false,
+},
+},
 },
 },
 ["Editmode"] = {
@@ -178,11 +299,13 @@ DragonflightUIDB = {
 },
 ["profileKeys"] = {
 ["Caliawen - Soulseeker"] = "Default",
-["Namzan - Soulseeker"] = "Default",
+["Namzan - Soulseeker"] = "Custom",
 ["Namzan - Thunderstrike"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+},
+["Custom"] = {
 },
 },
 }

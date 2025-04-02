@@ -5,46 +5,48 @@ AtlasLootClassicDB = {
 },
 ["profileKeys"] = {
 ["Caliawen - Soulseeker"] = "Caliawen - Soulseeker",
-["Namzan - Soulseeker"] = "Namzan - Soulseeker",
-["Caliawen - Thunderstrike"] = "Caliawen - Thunderstrike",
+["Smectalia - Soulseeker"] = "Smectalia - Soulseeker",
+["Rimahamas - Soulseeker"] = "Rimahamas - Soulseeker",
+["Félindra - Soulseeker"] = "Félindra - Soulseeker",
+["Mustachios - Soulseeker"] = "Mustachios - Soulseeker",
 ["Ersilia - Soulseeker"] = "Ersilia - Soulseeker",
-["Tiorfan - Spineshatter"] = "Tiorfan - Spineshatter",
+["Tiorfan - Soulseeker"] = "Tiorfan - Soulseeker",
 ["Namzan - Thunderstrike"] = "Namzan - Thunderstrike",
+["Tiorfan - Spineshatter"] = "Tiorfan - Spineshatter",
+["Failindra - Thunderstrike"] = "Failindra - Thunderstrike",
+["Gurdhil - Soulseeker"] = "Gurdhil - Soulseeker",
+["Caliawen - Thunderstrike"] = "Caliawen - Thunderstrike",
+["Namzan - Soulseeker"] = "Namzan - Soulseeker",
+["Hellefie - Soulseeker"] = "Hellefie - Soulseeker",
+["Namzie - Soulseeker"] = "Namzie - Soulseeker",
+["Broucouille - Soulseeker"] = "Broucouille - Soulseeker",
 },
 ["profiles"] = {
 ["Caliawen - Soulseeker"] = {
 },
-["Namzan - Soulseeker"] = {
-["minimap"] = {
-["minimapPos"] = 206.7862247811905,
+["Smectalia - Soulseeker"] = {
 },
-["GUI"] = {
-["selected"] = {
-nil,
-"Ragefire",
-nil,
-1,
-0,
+["Rimahamas - Soulseeker"] = {
 },
+["Félindra - Soulseeker"] = {
 },
-},
-["Caliawen - Thunderstrike"] = {
+["Mustachios - Soulseeker"] = {
 },
 ["Ersilia - Soulseeker"] = {
-["GUI"] = {
-["selected"] = {
-nil,
-"Ragefire",
-nil,
-1,
-0,
-},
-},
 ["minimap"] = {
 ["minimapPos"] = 171.9305857882686,
 },
+["GUI"] = {
+["selected"] = {
+nil,
+"Ragefire",
+nil,
+1,
+0,
 },
-["Tiorfan - Spineshatter"] = {
+},
+},
+["Tiorfan - Soulseeker"] = {
 },
 ["Namzan - Thunderstrike"] = {
 ["GUI"] = {
@@ -59,6 +61,43 @@ nil,
 ["minimap"] = {
 ["minimapPos"] = 46.9083874051492,
 },
+},
+["Tiorfan - Spineshatter"] = {
+},
+["Failindra - Thunderstrike"] = {
+},
+["Gurdhil - Soulseeker"] = {
+},
+["Caliawen - Thunderstrike"] = {
+},
+["Namzan - Soulseeker"] = {
+["minimap"] = {
+["minimapPos"] = 206.7862247811905,
+},
+["GUI"] = {
+["selected"] = {
+nil,
+"TheDeadmines",
+10,
+1,
+0,
+},
+},
+},
+["Hellefie - Soulseeker"] = {
+},
+["Namzie - Soulseeker"] = {
+["GUI"] = {
+["selected"] = {
+nil,
+"TheDeadmines",
+nil,
+1,
+0,
+},
+},
+},
+["Broucouille - Soulseeker"] = {
 },
 },
 }

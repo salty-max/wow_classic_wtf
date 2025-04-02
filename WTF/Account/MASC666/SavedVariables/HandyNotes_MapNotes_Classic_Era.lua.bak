@@ -3,8 +3,11 @@ HandyNotes_MapNotes_Classic_EraSoloDB = {
 ["profileKeys"] = {
 ["Tiorfan - Spineshatter"] = "Tiorfan - Spineshatter",
 ["Namzan - Soulseeker"] = "Namzan - Soulseeker",
+["Failindra - Thunderstrike"] = "Failindra - Thunderstrike",
 ["Caliawen - Thunderstrike"] = "Caliawen - Thunderstrike",
+["Rimahamas - Soulseeker"] = "Rimahamas - Soulseeker",
 ["Ersilia - Soulseeker"] = "Ersilia - Soulseeker",
+["Hellefie - Soulseeker"] = "Hellefie - Soulseeker",
 ["Namzan - Thunderstrike"] = "Namzan - Thunderstrike",
 },
 ["profiles"] = {
@@ -21,11 +24,23 @@ HandyNotes_MapNotes_Classic_EraSoloDB = {
 ["showCapitalsClassRogue"] = true,
 ["ChatMassage"] = true,
 },
+["Failindra - Thunderstrike"] = {
+["showCapitalsClassHunter"] = true,
+["showMinimapCapitalsClassHunter"] = true,
+},
 ["Caliawen - Thunderstrike"] = {
 ["showCapitalsClassRogue"] = true,
 ["showMinimapCapitalsClassRogue"] = true,
 },
+["Rimahamas - Soulseeker"] = {
+["showMinimapCapitalsClassHunter"] = true,
+["showCapitalsClassHunter"] = true,
+},
 ["Ersilia - Soulseeker"] = {
+["showCapitalsClassWarrior"] = true,
+["showMinimapCapitalsClassWarrior"] = true,
+},
+["Hellefie - Soulseeker"] = {
 ["showCapitalsClassWarlock"] = true,
 ["showMinimapCapitalsClassWarlock"] = true,
 },
@@ -39,8 +54,11 @@ MNMiniMapButton_Classic_EraSoloDB = {
 ["profileKeys"] = {
 ["Tiorfan - Spineshatter"] = "Tiorfan - Spineshatter",
 ["Namzan - Soulseeker"] = "Namzan - Soulseeker",
+["Failindra - Thunderstrike"] = "Failindra - Thunderstrike",
 ["Caliawen - Thunderstrike"] = "Caliawen - Thunderstrike",
+["Rimahamas - Soulseeker"] = "Rimahamas - Soulseeker",
 ["Ersilia - Soulseeker"] = "Ersilia - Soulseeker",
+["Hellefie - Soulseeker"] = "Hellefie - Soulseeker",
 ["Namzan - Thunderstrike"] = "Namzan - Thunderstrike",
 },
 ["profiles"] = {
@@ -48,9 +66,15 @@ MNMiniMapButton_Classic_EraSoloDB = {
 },
 ["Namzan - Soulseeker"] = {
 },
+["Failindra - Thunderstrike"] = {
+},
 ["Caliawen - Thunderstrike"] = {
 },
+["Rimahamas - Soulseeker"] = {
+},
 ["Ersilia - Soulseeker"] = {
+},
+["Hellefie - Soulseeker"] = {
 },
 ["Namzan - Thunderstrike"] = {
 },
